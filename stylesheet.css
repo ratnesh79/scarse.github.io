@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: aquamarine;
+    /* height: 50px; */
+    padding: 1px;
+}
+nav h3{
+    text-align: center;
+    font-size: 13px;
+}
+.main{
+    background-color: #2f2f64;
+    color: #e0e0e0;
+    text-align: center;
+    display: inline-block;
+}
+.head{
+    border: 1px solid transparent;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.head h2{
+    display: inline-block;
+     margin-bottom: 50px;
+}
+.content{
+    background-color: rgb(165, 224, 255);
+    /* margin: -20px; */
+    /* padding: 1px; */
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content h1{
+    display: inline-block;
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+.box{
+    padding: 15px 10px;
+    text-align: center;
+margin-bottom: 30px;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    background-color:white;
+    width: 29%;
+    border-radius: 25px;
+    box-shadow: 2px 1px 6px 0px grey;
+}
+.box h3{
+    color: #2f2f64;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 1px 6px 1px grey;
+}
+.box p{
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+}
+.btn{
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 50%;
+    margin: 25px;
+    display: inline-block;
+    background-color: #148d14;
+    /* margin-bottom: 20px; */
+}
+.btn a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+}
+.btn a:hover{
+   color: rgb(221, 217, 217);
+}
+.btn a:active{
+
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.vertical{
+    width: 5px;
+    background: white;
+    margin: 15px;
+}
+.ebook_detail{
+    background-color:#1e1244;
+    color: white;
+}
+.ebook_text{
+    color: yellow;
+}
+.head_title{
+    background-color: red;
+}
+.head_title h1{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.list ul{
+    list-style: none;
+    line-height: 1.8;
+}
+.testimonial_sec{
+    background-color: #2f2f64;
+    color: #e0e0e0;
+}
+.testimonial_vid{
+text-align: center;
+}
+.pic_img img{
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 3px 1px 6px 1px grey; */
+}
+.pic{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_media a{
+    display: block;
+    text-decoration: none;
+    color: #bdbbbb;
+}
+.social_media i{
+     padding: 10px;
+     /* margin: 10px; */
+     color: white;
+}
+
+.foot{
+    text-align: center;
+    color: #e0e0e0;
+    background-color: #363434;
+}
+.foot_text{
+    padding: 10px;
+}
+@media screen and (max-width: 750px) {
+    .box img{
+        width: 140px;
+        height: 140px;
+        box-shadow: 3px 1px 6px 1px grey;
+    }
+    .pic_img img{
+        width: 140px;
+        height: 140px;
+        /* box-shadow: 3px 1px 6px 1px grey; */
+    }
+    .container{
+        font-size: 13px;
+    }
+    .box{
+        padding: 10px 10px;
+        width: 27%;
+    }
+    .utube_vid{
+        width:295px;
+        height:205px;
+    }
+    nav h3{
+        font-size: 13px;
+    }
+    head h2,.head{
+        font-size: 10px;
+    }
+    .btn a{
+        font-size: 20px;
+    }
+    .head_title h1{
+        font-size: 13px;
+    }
+    .content h1{
+        margin-bottom: 35px;
+    }
+    .list ul{
+        line-height: 1.5;
+    }
+    .foot{
+        font-size: 10px;
+    }
+    .social_media i{
+        padding: 7px;
+       
+   }
+
+}
+
+@media screen and (max-width: 550px){
+    .box img{
+        width: 80px;
+        height: 80px;
+        box-shadow: 3px 1px 6px 1px grey;
+    }
+    .pic_img img{
+        width: 80px;
+        height: 80px;
+        /* box-shadow: 3px 1px 6px 1px grey; */
+    }
+    .container{
+        font-size: 13px;
+    }
+    .box{
+        padding: 5px 9px;
+        width: 26%;
+    }
+    .utube_vid{
+        width:250px;
+        height:125px;
+    }
+    nav h3{
+        font-size: 10px;
+    }
+    head h2,.head{
+        font-size: 10px;
+    }
+    .box p{
+        font-size: 7px;
+    }
+    
+    .btn a{
+        font-size: 13px;
+    }
+    .head_title h1{
+        font-size: 13px;
+    }
+    .content h1{
+        margin-bottom: 35px;
+    }
+    .list ul{
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .box h3{
+        font-size: 9px;
+    }
+    .foot{
+        font-size: 5px;
+    }
+    .foot_text{
+        padding: 8px;
+    }
+    .social_media i{
+        padding: 4px;
+       
+   }
+}
+
+
+@media screen and (max-width: 330px){
+    .box img{
+        width: 75px;
+        height: 75px;
+        box-shadow: 3px 1px 6px 1px grey;
+    }
+    .pic_img img{
+        width: 75px;
+        height: 75px;
+        /* box-shadow: 3px 1px 6px 1px grey; */
+    }
+    .container{
+        font-size: 10px;
+    }
+    .box{
+        padding: 3px 7px;
+        width: 26%;
+    }
+    .utube_vid{
+        width:210px;
+        height:100px;
+    }
+    nav h3{
+        font-size: 9px;
+    }
+    head h2,.head{
+        font-size: 8px;
+    }
+    .box p{
+        font-size: 6px;
+    }
+    
+    .btn a{
+        font-size: 11px;
+    }
+    .head_title h1{
+        font-size: 11px;
+    }
+    .content h1{
+        margin-bottom: 30px;
+    }
+    .list ul{
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .box h3{
+        font-size: 7px;
+    }
+    .foot{
+        font-size: 4px;
+    }
+    .foot_text{
+        padding: 6px;
+    }
+    .social_media i{
+        padding: 2px;
+       
+   }
+}
